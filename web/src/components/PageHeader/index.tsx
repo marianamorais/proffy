@@ -10,25 +10,24 @@ interface PageHeaderProps {
   title: string;
 }
 
-const PageHeader: React.FC<PageHeaderProps> = (props) => {
+const PageHeader: React.FC<PageHeaderProps> = ({ title, children }) => {
   return(
     <header className="page-header">
       <div className="top-bar-container">
         <Link to="/">
           <img src={backIcon} alt="Back"/>
         </Link>
+
         <img src={logoImg} alt="Proffy"/>
       </div>
 
       <div className="header-content">
-        <strong>{props.title}</strong>
+        <strong>{title}</strong>
 
-        {props.children}
+        {children}
       </div>
-
-
     </header>
-  )
-}
+  );
+};
 
 export default PageHeader;

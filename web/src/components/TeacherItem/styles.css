@@ -34,7 +34,7 @@
   margin-top: 0.4rem;
 }
 
-.teacher-item > p {
+.teacher-item>p {
  padding: 0 2rem;
  font-size: 1.6rem; 
  line-height: 2.8rem;
@@ -81,7 +81,7 @@
     padding: 3.2rem
   }
 
-  .teacher-item > p {
+  .teacher-item>p {
     padding: 0 3.2rem;
   }
 

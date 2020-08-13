@@ -19,11 +19,15 @@
   transition: opacity 0.2s;
 }
 
-.page-header .top-bar-container > img {
+.page-header .top-bar-container a:hover {
+  opacity: 0.6;
+}
+
+.page-header .top-bar-container>img {
   height: 1.6rem;
 }
 
-.page-header .page-content {
+.page-header .header-content {
   width: 90%;
   margin: 0 auto;
   position: relative;
@@ -50,13 +54,14 @@
     max-width: 740px;
     margin: 0 auto;
     padding-bottom: 48px;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
   }
 
-  .page-header .page-content strong {
+  .page-header .header-content strong {
     max-width: 350px;
   }
 }
