@@ -97,7 +97,7 @@
   margin-top: 3.2rem;
 }
 
-#page-teacher-form main footer buttom:hover {
+#page-teacher-form main footer button:hover {
   background: var(--color-secundary-dark);
 }
 
