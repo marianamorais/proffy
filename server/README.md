@@ -1,12 +1,12 @@
-# Funcionalidades 
+# Functionalities
 
-## Conexões
+## Connections
 
-- Rota para listar o total de conexões realizadas;
-- Rota para criar uma nova conexão;
+- Route to list the total connections made;
+- Route to create a new connection;
 
-## Aulas
+## Lessons
 
-- Rota para criar uma aula;
-- Rota para listar aulas;
-  - Filtrar por matéria, dia da semana e horário;
+- Route to create a class;
+- Route to list classes;
+- Filter by subject, day of the week and time;

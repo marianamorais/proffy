@@ -77,7 +77,7 @@ function TeacherList(){
           />
 
           <button type="submit">
-            Buscar
+            Search
           </button>
         </form>
       </PageHeader>
